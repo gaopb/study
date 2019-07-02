@@ -1,0 +1,13 @@
+<resources>
+
+    <string name="time_yesterday">昨天</string>
+    <string name="time_day">日</string>
+    <string name="time_month">月</string>
+    <string name="time_year">年</string>
+
+    <!-- Loading -->
+    <string name="on_loading">正在拼命加载中...</string>
+    <string name="on_loading_failure">加载失败，请点击重新加载</string>
+    <string name="not_pull_hint">别扯了，到底了</string>
+
+</resources>

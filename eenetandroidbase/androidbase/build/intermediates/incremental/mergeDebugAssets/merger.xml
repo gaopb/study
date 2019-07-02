@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="F:\projectforwork\NewBasePro\eenetandroidbase\androidbase\src\main\assets"/><source path="F:\projectforwork\NewBasePro\eenetandroidbase\androidbase\build\generated\assets\shaders\debug"/></dataSet><dataSet config="debug"><source path="F:\projectforwork\NewBasePro\eenetandroidbase\androidbase\src\debug\assets"/></dataSet></merger>

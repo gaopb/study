@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background_tab_pressed">#8833B5E5</color>
+    <color name="bg_title_bar">#ffffff</color>
+    <color name="colorAccent">#3392ff</color>
+    <color name="colorPrimary">#3392ff</color>
+    <color name="colorPrimaryDark">#3392ff</color>
+    <color name="default_bar_bg">#ffffff</color>
+    <color name="default_title_color">#333333</color>
+    <color name="itembg">#f6f6f6</color>
+    <color name="swipeColors">#3392ff</color>
+    <color name="theme_toolBar">#ffffff</color>
+    <color name="white">#ffffff</color>
+    <declare-styleable name="AutofitTextView"><attr format="dimension" name="minTextSize"/><attr format="float" name="precision"/><attr format="boolean" name="sizeToFit"/></declare-styleable>
+    <declare-styleable name="CircleImageView"><attr format="dimension" name="border_width"/><attr format="color" name="border_color"/></declare-styleable>
+    <declare-styleable name="CircleIndicator"><attr format="dimension" name="ci_radius"/><attr format="dimension" name="ci_margin"/><attr format="color|integer" name="ci_background"/><attr format="color|integer" name="ci_selected_background"/><attr name="ci_gravity">
+            <enum name="left" value="0"/>
+            <enum name="center" value="1"/>
+            <enum name="right" value="2"/>
+        </attr><attr name="ci_mode">
+            <enum name="inside" value="0"/>
+            <enum name="outside" value="1"/>
+            <enum name="solo" value="2"/>
+        </attr></declare-styleable>
+    <declare-styleable name="IconTextView"><attr format="string" name="facePath"/></declare-styleable>
+    <declare-styleable name="PagerSlidingTab"><attr format="color" name="indicatorColor"/><attr format="color" name="underlineColor"/><attr format="color" name="dividerColor"/><attr format="dimension" name="indicatorHeight"/><attr format="dimension" name="underlineHeight"/><attr format="dimension" name="pst_dividerPadding"/><attr format="dimension" name="tabPaddingLeftRight"/><attr format="dimension" name="scrollOffset"/><attr format="reference" name="tabBackgrounds"/><attr format="boolean" name="sameLine"/><attr format="boolean" name="pst_textAllCaps"/></declare-styleable>
+    <declare-styleable name="PagerSlidingTabStrip"><attr format="color" name="pstsIndicatorColor"/><attr format="color" name="pstsUnderlineColor"/><attr format="color" name="pstsDividerColor"/><attr format="dimension" name="pstsIndicatorHeight"/><attr format="dimension" name="pstsUnderlineHeight"/><attr format="dimension" name="pstsDividerPadding"/><attr format="dimension" name="pstsTabPaddingLeftRight"/><attr format="dimension" name="pstsScrollOffset"/><attr format="reference" name="pstsTabBackground"/><attr format="boolean" name="pstsShouldExpand"/><attr format="boolean" name="pstsTextAllCaps"/><attr format="color" name="selectedTabTextColor"/></declare-styleable>
+    <declare-styleable name="PullToRefreshGridView"><attr format="integer" name="ptr_column"/></declare-styleable>
+    <declare-styleable name="ScaleView"><attr format="integer" name="scale_width"/><attr format="integer" name="scale_height"/></declare-styleable>
+    <declare-styleable name="SmoothCheckBox"><attr format="integer" name="duration"/><attr format="dimension" name="stroke_width"/><attr format="color" name="color_tick"/><attr format="color" name="color_checked"/><attr format="color" name="color_unchecked"/><attr format="color" name="color_unchecked_stroke"/></declare-styleable>
+    <declare-styleable name="TitleBar"><attr format="color" name="tb_background"/><attr format="string" name="tb_title"/><attr format="dimension" name="tb_title_size"/><attr format="color" name="tb_title_color"/><attr format="reference" name="tb_back"/><attr format="reference" name="tb_menu"/><attr format="string" name="tb_menu_title"/><attr format="color" name="tb_menu_title_color"/><attr format="dimension" name="tb_menu_title_size"/><attr name="tb_title_gravity">
+            <enum name="center" value="0"/>
+            <enum name="left" value="1"/>
+            <enum name="right" value="2"/>
+        </attr></declare-styleable>
+    <declare-styleable name="progressLayout"><attr format="color" name="emptyColor"/><attr format="color" name="loadedColor"/><attr format="integer" name="maxProgress"/><attr format="boolean" name="autoProgress"/></declare-styleable>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="titleBarTitleSize">18sp</dimen>
+    <item name="list" type="id"/>
+    <item name="toolbar" type="id"/>
+    <item name="toolbar_menu" type="id"/>
+    <item name="toolbar_menu_title" type="id"/>
+    <item name="toolbar_title" type="id"/>
+    <string name="not_pull_hint">别扯了，到底了</string>
+    <string name="on_loading">正在拼命加载中...</string>
+    <string name="on_loading_failure">加载失败，请点击重新加载</string>
+    <string name="time_day">日</string>
+    <string name="time_month">月</string>
+    <string name="time_year">年</string>
+    <string name="time_yesterday">昨天</string>
+    <style name="HorizontalDivider">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0.5dp</item>
+        <item name="android:background">#ebebf1</item>
+    </style>
+    <style name="TitleBar">
+        <item name="tb_back">@mipmap/base_back_balck</item>
+        <item name="tb_background">@color/bg_title_bar</item>
+        <item name="tb_title_size">@dimen/titleBarTitleSize</item>
+    </style>
+    <style name="WaitDialog" parent="@android:style/Theme.Dialog">
+        　　	<item name="android:windowFrame">@null</item>
+        　　	<item name="android:windowIsFloating">true</item>
+        　　	<item name="android:windowIsTranslucent">false</item>
+        　	<item name="android:windowNoTitle">true</item>
+        　	<item name="android:windowBackground">@android:color/transparent</item>
+        　　	<item name="android:backgroundDimEnabled">false</item>
+    </style>
+</resources>

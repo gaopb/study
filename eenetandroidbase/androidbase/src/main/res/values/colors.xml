@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3392ff</color>
+    <color name="colorPrimaryDark">#3392ff</color>
+    <color name="colorAccent">#3392ff</color>
+    <color name="background_tab_pressed">#8833B5E5</color>
+    <color name="itembg">#f6f6f6</color>
+    <color name="swipeColors">#3392ff</color>
+    <color name="theme_toolBar">#ffffff</color>
+    <color name="white">#ffffff</color>
+    <color name="bg_title_bar">#ffffff</color>
+    <color name="default_title_color">#333333</color>
+    <color name="default_bar_bg">#ffffff</color>
+</resources>
